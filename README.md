@@ -49,3 +49,11 @@ source / assets / images / news_page_img / [創建這篇文章的資料夾]
 `
 ![圖片名稱](news_page_img/[your post slug]/example.jpg)
 `
+
+## 發布方式
+
+確認 build 出來的頁面沒問題後執行部屬
+
+    $ bundle exec middleman build
+    $ middleman deploy
+
