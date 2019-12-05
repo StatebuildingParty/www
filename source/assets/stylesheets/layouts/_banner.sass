@@ -1,0 +1,48 @@
+#banner
+  margin-top: 70px
+  position: relative
+  .banner-img-box
+    height: 370px
+    width: 100%
+    position: relative
+    background-size: 250%
+    background-position: top
+    background-repeat: no-repeat
+    overflow: hidden
+
+    img
+      opacity: 0
+      height: 370px
+      position: absolute
+      top: 0
+
+  h1
+    position: absolute
+    top: 50%
+    left: 50%
+    width: 100%
+    text-align: center
+    transform: translate(-50%, -50%)
+    text-shadow: 0px 0px 8px #000000
+    font-size: 1.9rem
+    z-index: 1
+
+
+// RWD banner
+@media screen and(min-width: 480px)
+  #banner
+    h1
+      font-size: 3rem
+@media screen and(min-width: 768px)
+  #banner
+    .banner-img-box
+      height: 500px
+      background-size: cover
+
+    h1
+      font-size: 4rem
+
+@media screen and(min-width: 992px)
+  #banner
+    .banner-img-box
+      height: 720px

@@ -1,0 +1,76 @@
+// about
+#about
+  margin: 20px 0px 50px 0px
+  .w-1200p
+    flex-direction: column
+    align-items: center
+  .col50
+    width: 90%
+    margin: 0
+
+  p+strong
+    margin-top: 30px
+
+.about-vedio
+  .lazyloaded
+    width: 100%
+    height: 145px
+    margin-top: 10px
+    background-size: cover
+    background-position: center
+    display: flex
+    justify-content: center
+    align-items: center
+    iframe
+        height: 100%
+        width: 100%
+
+
+.about-party-link-group
+  padding: 30px 0px 20px 0px
+  position: relative
+  .party-past-img
+    position: relative
+    width: 100%
+  .clique-img
+    position: absolute
+    width: 19%
+    top: 0px
+    left: 13%
+
+
+// RWD about
+@media screen and(min-width: 768px)
+  #about
+    margin: 60px 0px 80px 0px
+    .w-1200p
+      flex-direction: row
+      flex-wrap: wrap
+
+    .col50
+      width: 50%
+
+  .about-vedio
+    padding-right: 20px
+    order: 1
+
+    .lazyloaded
+      height: 300px
+
+    &:last-child
+      padding-top: 50px
+      order: 3
+
+  .about-intro
+    order: 2
+
+  .about-party-link-group
+    order: 4
+
+@media screen and(min-width: 992px)
+  #about
+  .about-vedio
+    padding-right: 25px
+
+  .about-intro, .about-party-link-group
+    padding-left: 25px

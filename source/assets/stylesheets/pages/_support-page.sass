@@ -1,0 +1,62 @@
+.page-support
+  margin-top: 130px
+
+  .col25
+    width: 100%
+    display: flex
+    flex-direction: column
+    margin: 0px 0px 90px 0px
+    text-align: center
+
+    &:first-child
+      margin-bottom: 70px
+      img
+        width: 163px
+
+    &:last-child
+      img
+        width: 75px
+      h2
+        &:before
+          content: "下載"
+          display: block
+      p
+        font-size: 2rem
+        line-height: 1.2em
+      p.text-red
+        display: none
+
+    img
+      width: 190px
+      margin: auto
+
+    h2
+      font-size: 2rem
+      line-height: 1.2em
+      margin-bottom: 15px
+
+    p
+      margin-top: 10px
+
+
+@media screen and(min-width: 768px)
+  .page-support
+    margin: 180px 0px 30px 0px
+
+    .w-1200p
+      display: flex
+      justify-content: space-around
+      align-items: flex-start
+      max-width: 1240px
+
+    .col25
+      width: 25%
+      padding: 0px 20px
+      &:first-child
+        width: 20%
+
+      &:last-child
+        align-self: center
+
+      p.text-red
+        margin-top: 40px

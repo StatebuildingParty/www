@@ -1,0 +1,83 @@
+@mixin button
+  padding: 10px 15px
+  position: relative
+  border-radius: $m-radius
+  font-size: 1.3rem
+  cursor: pointer
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  +trans-02s
+
+@mixin button-right-icon
+  &:after
+    content: ""
+    width: 12px
+    height: 21px
+    margin-left: 10px
+    background-size: 100%
+    background-position: center
+    background-repeat: no-repeat
+    background-image: url(#{image_path('icon-chevron-right.svg')})
+
+
+.button
+  &-golden
+    +button
+    background-color: $color-gold-dark
+    color: $bg-white
+    &:hover
+      background-color: $color-gold
+    a
+      color: $bg-white
+.button
+  &-golden-border
+    +button
+    padding: 8px 13px
+    color: $color-gold-dark
+    border: 2px solid $color-gold-dark
+    bockgrond-color: inherit
+    a
+      color: $color-gold-dark
+    &:hover
+      border: 2px solid $color-gold
+      color: $color-gold
+      a
+        color: $color-gold
+
+
+
+.button
+  &-golden-right
+    +button
+    background-color: $color-gold-dark
+    color: $bg-white
+    &:hover
+      background-color: $color-gold
+
+    a
+      color: $bg-white
+      position: relative
+      display: flex
+      align-items: center
+      +button-right-icon
+
+// play-btn
+.play-btn
+  background-color: rgba(166, 63, 36,0.8)
+  background-image: url(#{image_path('icon-play.svg')})
+  background-size: 20px
+  background-position: center
+  background-repeat: no-repeat
+  box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.5)
+  width: 73px
+  height: 73px
+  border-radius: 100%
+  cursor: pointer
+  +trans-02s
+  &:hover
+    background-color: rgba(183, 98, 76, 0.8)
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.8)
+
+
+
+

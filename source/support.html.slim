@@ -1,0 +1,23 @@
+---
+title: '台灣基進 | 捐款支持'
+---
+- content_for :page_style do
+  = stylesheet_link_tag :page_support
+
+section.page-support
+  .w-1200p
+    .col25
+      = image_tag 'lqip-src.jpg', data: { src: image_path('support/support-page-title.svg'),sizes: 'auto',srcset:image_path('support/support-page-title.svg')}, alt: '台灣基進 | 捐款支持', class:'lazyload'
+
+    - data.support.donate.each do |item|
+      .col25
+        = link_to item.link,target:'_blank',rel:'noopener' do
+          = image_tag 'lqip-src.jpg', data: { src: image_path(item.img),sizes: 'auto',srcset: image_path(item.img)}, alt: '台灣基進 | '+item.title+'', class:'lazyload'
+          h2.text-red = item.title
+        = markdown(item.content)
+        p.text-red
+          | (請點掃描或點選 QRcode)
+
+- content_for :page_js do
+
+

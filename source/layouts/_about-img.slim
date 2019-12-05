@@ -1,0 +1,7 @@
+section#about-img.bg-gray
+  .w-900p
+    picture
+      source type="image/webp" data-srcset="#{image_path('about-statebuilding.webp')}"
+      = image_tag 'lqip-src.jpg', data: { src: image_path('about-statebuilding.png'),sizes: 'auto',srcset:image_path('about-statebuilding.png')}, alt: data.main.title, class:'lazyload'
+
+

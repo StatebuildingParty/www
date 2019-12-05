@@ -1,0 +1,25 @@
+doctype html
+html lang="zh-TW"
+  head
+    = partial "layouts/shared/head"
+  body
+    = partial "layouts/shared/nav"
+    = yield
+    = partial "layouts/shared/footer"
+
+    /! CSS
+    = yield_content :page_style
+
+    /! vender
+    = partial "layouts/shared/vender"
+    = partial "layouts/shared/google-font"
+
+    /! js
+    = javascript_include_tag :site
+    = yield_content :page_js
+
+    /! ga
+    = partial "layouts/shared/ga"
+
+
+

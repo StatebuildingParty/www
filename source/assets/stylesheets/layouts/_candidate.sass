@@ -1,0 +1,70 @@
+#candidate
+  margin-top: 30px
+  .w-900p
+    width: 100%
+    padding-top: 30px
+    &:last-child
+      padding-top: 0px
+      .icon-stanbuild
+        padding: 40px 0px
+    .text-title
+      width: 90%
+      margin: auto
+      padding-bottom: 20px
+  h4
+    font-size: 1.3rem
+
+  .carousel-card-img
+    img
+        border-radius: 100%
+
+.candidate-large-group
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  align-items: center
+  border: 0px
+  .item
+    margin: 0px 15px 40px 15px
+
+.candidate-main-group
+  padding-bottom: 30px
+
+@media screen and(min-width: 768px)
+  #candidate
+    padding-bottom: 40px
+    h4
+      font-size: 1.6rem
+    .w-900p
+      width: 90%
+      max-width: 900px
+      &:last-child
+        padding-top: 0px
+      &:first-child
+        display: flex
+        .text-title
+          width: 0px
+          flex-grow: 1
+
+    .carousel-card-img
+      cursor: pointer
+
+  .candidate-large-group
+    border-bottom: solid 20px $color-primary
+    justify-content: space-around
+
+    .item
+      margin-bottom: 70px
+      display: flex
+      flex-direction: column
+      align-items: center
+
+      .carousel-card-img,h4,p
+        width: 210px
+        padding: 0px 15px
+
+  .candidate-main-group
+    margin-top: 80px
+    .item
+      margin: auto
+

@@ -1,0 +1,145 @@
+#support
+  h1
+    margin-right: 20px
+
+.support-cover
+  height: 204px
+  width: 100%
+  position: relative
+  background-image: url(#{image_path('support/support.jpg')})
+  background-size: cover
+  background-position: top
+  background-repeat: no-repeat
+  border-top: 15px solid $color-primary
+  display: none
+  justify-content: flex-end
+  align-items: center
+  &:first-child
+    display: block
+
+  h1
+    display: flex
+    align-items: center
+    text-shadow: 0px 0px 8px rgba(0,0,0,0.5)
+    &:after
+      content: ""
+      width: 27px
+      height: 27px
+      margin-left: 10px
+      background-image: url(#{image_path('icon-statebuilding-whtie.svg')})
+      background-size: 100%
+      background-position: center
+
+.support-active
+  display: flex
+
+.supprot-link-group
+  width: 100%
+
+  li
+    text-align: center
+    width: 50%
+    color: $bg-white
+    padding: 15px 0px
+    text-shadow: 0px 0px 10px #A63F24
+    +trans-02s
+    a
+      font-weight: 700
+      font-size: 1.3rem
+
+    &:hover
+      +hover-box
+
+    &:nth-child(1)
+      background-color: #A85D4E
+    &:nth-child(2)
+      background-color: #CC7D6D
+    &:nth-child(3)
+      background-color: #E0A196
+    &:nth-child(4)
+      background-color: #EFC1BB
+
+    a
+      color: $bg-white
+      font-size: 1.5rem
+      text-shadow: 0px 0px 10px #A63F24
+
+  .tab-tile-active
+    display: inline-block
+    +hover-box
+
+@media screen and(min-width: 768px)
+  #support
+    .w-1200p
+      display: flex
+      align-items: flex-end
+      justify-content: space-between
+
+    h1
+      font-size: 3rem
+      position: relative
+      &:after
+        content: ""
+        width: 27px
+        height: 27px
+        background-image: url(#{image_path('icon-statebuilding-primary.svg')})
+        background-size: 100%
+        background-position: center
+        position: absolute
+        right: -24px
+        top: -5px
+
+  .support-active
+    display: block !important
+
+  .support-cover
+    border: none
+    height: 600px
+    overflow: hidden
+    position: relative
+    background-position: 20% center
+    background-image: inherit
+
+    &:fist-child
+      display: block
+
+    h1
+      display: none
+
+    .tab-content
+      height: 100%
+      width: 30%
+      min-width: 550px
+      position: absolute
+      top: 0
+      right: 0
+      padding: 70px 0px 0px 20px
+      background-color: rgba(140, 54, 32, 0.4)
+
+      h2
+        font-size: 3rem
+
+      .tab-content-text
+        max-width: 380px
+        h2,p,li
+          color: $color-white
+          text-shadow: 0px 0px 8px rgba(0,0,0,0.5)
+        h2
+          margin-bottom: 10px
+        li,p
+          margin-bottom: 7px
+          font-weight: 300
+
+        button
+          align-self: flex-end
+          margin-top: 40px
+          box-shadow: 0px 0px 11px rgba(0,0,0,0.4)
+
+
+  .supprot-link-group
+    width: 70%
+    li
+      width: 25%
+      padding: 5px 0px
+      font-size: 1.8rem
+      cursor: pointer

@@ -1,0 +1,31 @@
+---
+title: '台灣基進 | 成為志工'
+---
+- content_for :page_style do
+  = stylesheet_link_tag :page_form
+
+section.page-form
+  .w-900p
+    h1.text-red 成為志工
+    .page-form-content
+      iframe[data-src="https://www.surveycake.com/s/X7YK0" allowTransparency="true" frameborder="0" class="lazyload"]
+
+- content_for :page_js do
+  javascript:
+    // surveycake
+      window.addEventListener('message', function(event) {
+          var type = event.data ? event.data.type : '';
+          var payload = event.data ? event.data.payload : '';
+
+          if (
+            type === 'OPEN_PREVIEW_MODAL' ||
+            ['thankyou', 'ended', 'sorry'].indexOf(payload) !== -1
+            ) {
+            document
+              .querySelectorAll('.SaurveyCake-Survey-embed')
+              .forEach(function(node) {
+                node.scrollTop = 0;
+              });
+          }
+      });
+

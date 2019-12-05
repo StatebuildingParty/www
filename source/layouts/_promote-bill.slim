@@ -1,0 +1,39 @@
+section#promote-bill
+  .w-900p
+    .desk-title-icon
+    h2.text-title.text-red 我們要在國會堅定推動
+    .icon-stanbuild
+
+  .w-900p
+    .promote-bill-group
+      - data.promote_bill.promote[0..7].each do |item|
+        .item.text-center.js-popup-open[data-target=item.avatar]
+          a.carousel-card-img
+            picture
+              source type="image/webp" data-srcset="#{image_path('promote_bill/' + item.avatar + '.webp')}"
+              = image_tag 'lqip-src.jpg', data:{src: image_path('promote_bill/' + item.avatar + '.png'),sizes: 'auto',srcset: image_path('promote_bill/' + item.avatar + '.png')},alt: item.title,class:'lazyload'
+          h4 = item.title
+
+    .promote-bill-group.js-promote-bill-group.carousel-card.owl-carousel
+      - data.promote_bill.promote[0..7].each do |item|
+        .item.js-popup-open[data-target=item.avatar]
+          a.carousel-card-img
+            picture
+              source type="image/webp" data-srcset="#{image_path('promote_bill/' + item.avatar + '.webp')}"
+              = image_tag 'lqip-src.jpg', data:{src: image_path('promote_bill/' + item.avatar + '.png'),sizes: 'auto',srcset: image_path('promote_bill/' + item.avatar + '.png')},alt: item.title,class:'lazyload'
+          h4 = item.title
+
+  .w-900p
+    .desk-title-icon
+    h2.text-title.text-red 我們已在各地踏實行動
+    .icon-stanbuild
+
+  .w-900p
+    .promote-local-group.js-promote-local-group.carousel-card.owl-carousel.owl-theme
+      - data.promote_bill.promote_local.each do |item|
+        .item.js-popup-open[data-target=item.avatar]
+          a.carousel-card-img
+            picture
+              source type="image/webp" data-srcset="#{image_path('promote_bill/' + item.avatar + '.webp')}"
+              = image_tag 'lqip-src.jpg', data:{src: image_path('promote_bill/' + item.avatar + '.png'),sizes: 'auto',srcset: image_path('promote_bill/' + item.avatar + '.png')},alt: item.title,class:'lazyload'
+          h4 = item.title

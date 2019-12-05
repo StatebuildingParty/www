@@ -1,0 +1,42 @@
+#promote-bill
+  margin-top: 50px
+
+  .w-900p
+    padding-bottom: 20px
+    &:nth-child(2),&:last-child
+      width: 100%
+
+  .promote-bill-group
+    padding-bottom: 40px
+    display: block
+    &:first-child
+      display: none
+
+  .carousel-card-img
+    width: 100%
+    cursor: pointer
+    +trans-03s
+
+
+
+@media screen and(min-width: 768px)
+  #promote-bill
+    margin-top: 150px
+    .carousel-card-img
+        width: 180px
+
+    .promote-bill-group
+      display: none
+      &:first-child
+        display: flex
+        flex-wrap: wrap
+        .item
+          width: 25%
+          margin-bottom: 50px
+
+    .promote-local-group,.promote-bill-group
+      padding: 30px 0px 70px 0px
+
+    .promote-local-group
+      button.owl-next,button.owl-prev
+        display: none !important

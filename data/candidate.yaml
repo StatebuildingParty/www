@@ -1,0 +1,162 @@
+candidate:
+  # ------- 分區立委 ------- #
+  - name: 陳柏惟
+    avatar: pehui
+    zone: 台中第二選區
+    town: 沙鹿、霧峰、大肚、 烏日、龍井
+    fb: https://www.facebook.com/3Q.PehUi/
+    title : 台中市第二選區(霧鹿大烏龍) 立委候選人
+    job: |-
+      - 台灣基進 發言人
+      - 電影製片
+    education: 國立高雄大學 資訊管理學系
+    experience: |-
+      - 新都慢速壘球協會 網管
+      - 兔將視覺特效 立體製作總監
+      - 汪達創意 執行長
+    works: |-
+      - 微電影 台灣如龍 製作人
+      - 電影 幸福路上 執行製片
+      - 電影 寒戰二 立體製作總監
+      - 電影 華麗上班族 立體製作總監
+      - 電影 Kano 特效專案經理
+      - 電影 風暴 立體專案經理 等21部作品
+    campus: |-
+      - 高雄市牙醫公會壘球隊 教練
+      - 高雄醫學大學醫學系壘球隊 教練
+      - 高雄市夏綠地壘球隊 隊員
+      - 電影製作、企業管理、活動統籌 講師
+      - 電影、節目 台語配音員
+
+  - name: 顏銘緯
+    avatar: weifortw
+    zone: 台北第八選區
+    town: 文山、中正
+    fb: https://www.facebook.com/weifortw/
+    title : 台北市第八選區文山南中正 立委候選人
+    job: 台灣基進 發言人
+    education: 中山大學 社會學系
+    experience: |-
+      - 台灣獨立建國聯盟 盟員
+      - 2018年基進黨 競選團隊辦公室 主任
+
+  - name: 洪正
+    avatar: hungcheng
+    zone: 金門縣選區
+    town: " "
+    fb: https://zh-tw.facebook.com/HungCheng.TK/
+    title : 金門縣立委候選人
+    job: 台灣基進中央黨部新聞輿情部 主任
+    education: |-
+      - 國立成功大學土木工程學系
+      - 國立高雄海洋科技大學 輪機工程學系
+    experience: |-
+      - 2014 基進側翼 競選辦公室 主任秘書
+      - 台灣獨立建國聯盟 盟員
+      - 基進黨高雄黨部 主委
+
+
+  # ------- 不分區立委 ------- #
+  - name: 成令方
+    avatar: lingfangcheng
+    fb: https://www.facebook.com/%E6%88%90%E4%BB%A4%E6%96%B9-110864867037602/
+    title : 台灣基進不分區候選人第一名
+    ranking: 第一名
+    brief : 不僅是台灣性別研究、婦運界的重量級學者，也曾以「中共黨史」作為碩士論文題目。近年參與私教工會爭取改善教師待遇，也參與高醫校園「透明革命」的改革。
+    job: 台灣女性學學會監事
+    education: |-
+      - 英國艾賽克斯大學 (Essex) 社會學 博士
+      - 英國里茲大學 (Leeds) 東亞研究 副博士
+      - 東海大學政治學系
+      - 台北市立第一女子高級中學
+    experience: |-
+      - 高雄醫學大學性別研究所 所長、教授
+      - 教育部性別平等委員會 委員
+      - 著作：抓起頭髮要飛天(1993)
+      - 譯著：「見樹又見林(2001)」、「性別打結：拆除性別違建(2008)」
+      - 主編「醫療與社會共舞(2008)」
+
+  - name: 陳奕齊
+    avatar: chenyichi
+    fb: https://www.facebook.com/chenyichi.radicalwing/
+    title : 台灣基進不分區候選人第二名
+    ranking: 第二名
+    brief : 一路帶領台灣基進至今的創黨黨主席，專長為政治經濟學，也是台灣最早提出「立委中國資產比例限制」、「外國代理人登記制」的政治工作者。
+    job: 台灣基進 黨主席
+    education: 荷蘭萊頓大學區域研究中心 博士候選人
+    experience: |-
+      - 高雄醫學大學 兼任講師
+      - 香港基督教工業委員會 研究員
+      - 勞動與產業研究工作室 負責人
+      - 《高雄人權城市促進會》 理事
+      - 台南公民智庫 研究員
+      - 民視台灣學堂 副執行長
+      - 2020 東京奧運台灣正名行動聯盟 發起人
+
+  - name: 吳欣岱
+    avatar: tspdrshe
+    fb: https://www.facebook.com/TSPDrShe/
+    title : 台灣基進不分區候選人第三名
+    ranking: 第三名
+    brief : 血管外科專業醫師，以實際行動力抗職場的性別霸凌，將在國會鎖定改善職場性別不平等及衛福相關領域。
+    job: 血管外科 醫師
+    education: 國立陽明大學醫學系畢業
+    experience: |-
+      - 衛生福利部台中醫院 住院醫師
+      - 衛生福利部屏東醫院 主治醫師
+
+  - name: 陳冠榮
+    avatar: tspdrchen
+    fb: https://www.facebook.com/TSPDrChen/
+    title : 台灣基進不分區候選人第四名
+    ranking: 第四名
+    brief : 前高雄氣爆自救會會長，自 2014 年高雄發生大氣爆後便一肩扛起自救會責任。雖過程中承受藍營惡意炮轟，但仍盡心盡力、務求每一位受害者都獲得賠償與照顧。將在國會鎖定改善公共安全與衛福領域。
+    job: 腎臟科 醫師
+    education: 長庚大學 醫學系畢
+    experience: |-
+      - 前高雄氣爆自救會 會長
+      - 台北市立萬芳醫院腎臟科 研究員
+      - 高悅診所 負責人
+      - 輔英科技大學 兼任講師
+      - 輔英科技大學附設醫院 醫師
+      - 政大EMBA碩士班 進修中
+
+  - name: 何澄輝
+    avatar: owlmedia
+    fb: https://www.facebook.com/owlmedia.tw/
+    title : 台灣基進不分區候選人第五名
+    ranking: 第五名
+    brief : 「外國代理人法」起草人之一，專業為法律與國際政治戰略研究，現為智庫「台灣戰略模擬學會」研究員。
+    education: |-
+      - 荷蘭萊頓大學東亞研究所 博士
+      - 德國波昂大學國家學暨法律學 碩士
+      - 東海大學法律學研究所 碩士
+      - 東海大學法律學系 學士
+    experience: |-
+      - 台灣戰略模擬學會 研究員
+      - 《境外勢力影響透明法》 起草人
+
+  - name: 李雨蓁
+    avatar: fengshanyuchen
+    fb: https://www.facebook.com/FengshanYuChen/
+    title : 台灣基進不分區候選人第六名
+    ranking: 第六名
+    brief : 台灣基進組織部主任，從事文化、創業與政治工作，是我們創立一路以來最堅定的專業政治工作者。
+    education: |-
+      - 成功大學工業設計系 學士
+      - 高師大 跨領域藝術研究所 研究生
+    experience: |-
+      - 台灣基進組織部 主任
+      - 高雄好過日協會 常務理事
+
+  # 新增 不分區立委 格式
+  # - name: 姓名
+  #   avatar: ** 個人圖片名 **
+  #   fb: https://www.facebook.com//
+  #   title : 不分區立委候選人
+  #   brief:
+  #   job:
+  #   education:
+  #   experience: |-
+  #     經歷 一
+  #

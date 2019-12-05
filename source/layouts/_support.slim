@@ -1,0 +1,22 @@
+section#support
+  .w-1200p.mobile-close
+    h1.text-red 支持我們
+    ul.supprot-link-group.d-flex.flex-wrap
+      - data.support.support.each do |item|
+        li.tab-title =item.title
+
+  - data.support.support.each do |item|
+    .support-cover.lazyload[data-bg="#{image_path('support/' +item.image+ '.jpg')}"]
+      h1.text-white 支持我們
+      .tab-content.mobile-close
+        .tab-content-text.d-flex.flex-column
+          h2 =item.title
+          p =item.content
+          = markdown(item.list)
+          button.button-golden-right
+            = link_to item.button,item.link,target:'_blank',rel:'noopener',class:'text-light'
+
+  ul.supprot-link-group.d-flex.flex-wrap.desk-close
+    - data.support.support.each do |item|
+      li
+        = link_to item.title,item.link,target:'_blank',rel:'noopener'

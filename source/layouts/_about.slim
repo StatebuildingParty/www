@@ -1,0 +1,35 @@
+section#about
+  .w-1200p.d-flex
+    .col50.about-intro
+      strong.text-red 2014年,
+      p
+        | 眼見權貴把持政治、中共滲透台灣，而青年有志難伸，
+        br
+        | 一群關心台灣未來的青年，決心起身行動，翻轉台灣。
+
+
+      strong.text-red 至今5年，
+      p
+        | 沒有政富二代背景，雖資源有限、挫折不斷；
+        br
+        | 但始終一步一腳印，從成立社團到組織政黨。
+
+    .col50.about-party-link-group
+        .party-past-img
+          picture
+            source type="image/webp" data-srcset="#{image_path('party-past-img.webp')}"
+            = image_tag 'lqip-src.jpg', data: { src: image_path('party-past-img.svg'),sizes: 'auto',srcset:image_path('party-past-img.svg')}, alt: '台灣基進組織前身', class:'lazyload'
+
+          = link_to 'http://clique2008.blogspot.com/',target:'_blank',rel:'noopener',class:'clique-img' do
+            picture
+              source type="image/webp" data-srcset="#{image_path('clique.webp')}"
+              = image_tag 'lqip-src.jpg', data: { src: image_path('clique.jpg'),sizes: 'auto',srcset:image_path('clique.jpg')}, alt: '超克藍綠', class:'lazyload'
+
+
+    .col50.about-vedio
+      .lazyload[data-youtube="-htDN9onwAM" data-ytparams=""]
+        button.play-btn
+
+    .col50.about-vedio
+      .lazyload[data-youtube="zEl9GrdrFNs" data-ytparams=""]
+        button.play-btn

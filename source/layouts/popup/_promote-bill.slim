@@ -1,0 +1,18 @@
+/ Popup - Promote bill
+- data.promote_bill.promote.each do |item|
+  .popup-box.bg-white.promote-popup[id=item.avatar]
+    button.popup-close-icon
+    .popup-content
+      .promote-popup-img
+        picture
+          source type="image/webp" data-srcset="#{image_path('promote_bill/' + item.avatar + '.webp')}"
+          = image_tag 'lqip-src.jpg', data:{src: image_path('promote_bill/' + item.avatar + '.png'),sizes: 'auto',srcset: image_path('promote_bill/' + item.avatar + '.png')},alt: item.title,class:'lazyload'
+
+      .promote-popup-text
+        h3.text-red = item.title
+        p = item.content
+        - if item.link?
+          = link_to '官網連結',item.link,target:'_blank',rel:'noopener',class:'text-red'
+        - if item.fb?
+          = link_to item.fb,target:'_blank',rel:'noopener',class:'fb-search-img'
+            p = item.title

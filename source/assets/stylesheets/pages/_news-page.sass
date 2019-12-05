@@ -1,0 +1,50 @@
+// news-page
+@import 'news-page-markdown-template'
+
+.news-page
+  padding: 120px 0px 50px 0px
+
+.news-page-header
+  margin-bottom: 30px
+  position: relative
+  h1
+    margin-bottom: 35px
+    padding-bottom: 10px
+    display: inline-block
+    position: relative
+    line-height: 1.4em
+    width: 100%
+
+    &:after
+      content: ""
+      position: absolute
+      bottom: 0
+      left: 0
+      height: 10px
+      width: 100%
+      border-radius: 10px
+      background-color: $color-primary
+
+.news-page-logo
+  display: none
+
+
+@media screen and(min-width: 768px)
+  .news-page
+    padding: 170px 0px 80px 0px
+
+  .news-page-header
+    h1
+      max-width: 80%
+
+  .news-page-logo
+    position: absolute
+    display: inline-block
+    right: 0px
+    top: -10px
+    width: 120px
+    height: 117px
+    background-image: url('#{image_path('logo-statebuilding-bk.svg')}')
+    background-size: 120px
+    background-position: center
+    background-repeat: no-repeat

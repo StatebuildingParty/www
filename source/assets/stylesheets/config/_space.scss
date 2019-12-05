@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.w-800p, .w-900p, .w-1200p {
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+}
+.w-100p   { width: 100%;}
+.w-900p   { max-width: 900px;}
+.w-800p   { max-width: 800px;}
+.w-1200p  { max-width: 1200px;}
+
+// col
+@for $i from 0 through 20 {
+  .col#{$i * 5} {
+    width: $i * 5%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -5px;
+  }
+}
+
+.col33{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -5px;
+  width: 33.3333%;
+}
+
+.col50:nth-child(odd){
+  margin-left: 0px;}
+

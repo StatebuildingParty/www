@@ -1,0 +1,184 @@
+// popup
+.popup
+  position: fixed
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+  z-index: 2
+  overflow: hidden
+  display: none
+
+  .overlay
+    position: fixed
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    z-index: 1
+    background-color: rgba(0, 0, 0, 0.5)
+
+.popup-box
+  display: block
+  margin: 20vh auto
+  z-index: 1
+  white-space: pre-wrap
+  position: relative
+  border-radius: 15px
+  overflow: hidden
+
+.popup-content
+  max-height: 62vh
+  overflow-y: scroll
+  position: relative
+
+.popup-close-icon
+  width: 22px
+  height: 22px
+  position: absolute
+  right: 16px
+  top: 16px
+  z-index: 1
+  cursor: pointer
+  background-image: url('#{image_path('icon-close.svg')}')
+  background-size: 22px
+  background-position: center
+  background-repeat: no-repeat
+  background-color: rgba(0,0,0,0)
+
+// promote 推動法案
+.promote-popup
+  width: 80%
+  padding: 30px 20px
+  h3
+    font-size: 2rem
+    margin-bottom: 10px
+
+  .fb-search-img
+    margin-top: 10px
+  a
+    font-weight: 700
+    margin-top: 10px
+
+.promote-popup-img
+  width: 150px
+  margin: auto
+  padding-bottom: 20px
+  img
+    width: 100%
+
+
+// candidate 候選人
+.candidate-popup
+  width: 90%
+  .popup-content
+    max-height: 70vh
+
+.candidate-popup-img
+  width: 100%
+  height: 28vh
+  display: flex
+  margin: 48px 0px 15px 0px
+  background-size: 80%
+  background-position: center 10px
+  background-repeat: no-repeat
+  background-color: #D8DEDD
+
+#weifortw .candidate-popup-img
+    background-size: 70%
+    background-position: center -6px
+
+.candidate-popup-text
+  position: relative
+  margin: 5px 20px 20px 20px
+
+  h3
+    display: inline-block
+    padding: 40px 0px 10px 0px
+  h4
+    font-size: 1.1rem
+    margin-bottom: 5px
+  ul
+    line-height: 0
+  li,p,small
+    font-size: 1rem
+    white-space: pre-line
+
+.candidate-popup-logo
+  display: none
+
+
+@media screen and(min-width: 768px)
+  .popup-box
+    margin: 20vh auto
+
+  .popup-content
+    display: flex
+
+  // 推動法案 popup
+  .promote-popup
+    max-width: 650px
+    padding: 35px 40px 35px 25px
+
+  .promote-popup-img
+    margin-right: 35px
+    width: 170px
+
+  .promote-popup-text
+    flex-grow: 1
+    width: 0
+
+
+  // 候選人 popup
+  .candidate-popup
+    max-width: 830px
+
+    .popup-content
+      max-height: 520px
+      align-items: flex-end
+      margin: 20px
+      height: 65vh
+      overflow-y: scroll
+
+  .candidate-popup-img , #weifortw .candidate-popup-img
+    max-width: 450px
+    height: 100%
+    margin: 0px
+    background-size: cover
+    background-position: center -30%
+
+
+  .candidate-popup-top
+    position: relative
+    padding-top: 20px
+    margin-bottom: 10px
+
+  .candidate-popup-logo
+    width: 100px
+    height: 97px
+    margin: 0px 0px 25px auto
+    background-image: url('#{image_path('logo-statebuilding-bk.svg')}')
+    background-size: 100%
+    background-position: center
+    background-repeat: no-repeat
+    display: block
+
+  .candidate-popup-text
+    margin-bottom: 0px
+    min-width: 300px
+    height: 100%
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    width: 0px
+    h3
+      font-size: 2.3rem
+      margin-bottom: -10px
+      padding: 0px 0px 10px 0px
+
+    .text-content
+      overflow-y: scroll
+
+
+
+

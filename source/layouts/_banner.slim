@@ -1,0 +1,6 @@
+section#banner
+  .banner-carousel.js-banner.owl-carousel
+    - (1 .. 5).each.with_index(1) do |item, index|
+      .item.banner-img-box.lazyload[data-bgset="#{image_path('banner/statebuilding-'+ index.to_s() +'_1X.jpg')} 480w, #{image_path('banner/statebuilding-'+ index.to_s() +'_2X.jpg')} 768w, #{image_path('banner/statebuilding-'+ index.to_s() +'_3X.jpg')} 992w, #{image_path('banner/statebuilding-'+ index.to_s() +'_4X.jpg')} 1920w" data-size="auto"]
+
+  h1.text-white = data.main.slogan

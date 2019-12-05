@@ -1,0 +1,43 @@
+section#candidate
+  .w-900p
+    .desk-title-icon
+    h2.text-title.text-red
+      | 如果你也贊同我們的行動，
+        2020 請與我們一同支持！
+    .icon-stanbuild
+
+  .w-900p.mobile-close
+    .candidate-large-group
+      - data.candidate.candidate[3..9].each do |item|
+        .item.text-left.js-popup-open[data-target=item.avatar]
+          .carousel-card-img
+            picture
+              source type="image/webp" data-srcset="#{image_path('candidate/' + item.avatar + '.webp')}"
+              = image_tag 'lqip-src.jpg', data:{src: image_path('candidate/' + item.avatar + '.png'),sizes: 'auto',srcset: image_path('candidate/' + item.avatar + '.png')},alt: item.name,class:'lazyload'
+          h4.text-red = item.name
+          p = '不分區 '+item.ranking
+
+  .w-900p.desk-close
+    .candidate-large-group.js-candidate-large-group.carousel-card.owl-carousel
+      - data.candidate.candidate[3..9].each do |item|
+        .item.text-left.js-popup-open[data-target=item.avatar]
+          .carousel-card-img
+            picture
+              source type="image/webp" data-srcset="#{image_path('candidate/' + item.avatar + '.webp')}"
+              = image_tag 'lqip-src.jpg', data:{src: image_path('candidate/' + item.avatar + '.png'),sizes: 'auto',srcset: image_path('candidate/' + item.avatar + '.png')},alt: item.name,class:'lazyload'
+          h4.text-red = item.name
+          p 不分區
+
+
+  .w-900p
+    .icon-stanbuild
+    .candidate-main-group.js-candidate-main-group.carousel-card.owl-carousel
+      - data.candidate.candidate[0..2].each do |item|
+        .item.text-left.js-popup-open[data-target=item.avatar]
+          .carousel-card-img
+            picture
+              source type="image/webp" data-srcset="#{image_path('candidate/' + item.avatar + '.webp')}"
+              = image_tag 'lqip-src.jpg', data:{src: image_path('candidate/' + item.avatar + '.png'),sizes: 'auto',srcset: image_path('candidate/' + item.avatar + '.png')},alt: item.name,class:'lazyload'
+          h4.text-red = item.name
+          p = item.zone
+          p = item.town

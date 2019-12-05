@@ -1,0 +1,32 @@
+
+meta content=("text/html; charset=UTF-8") http-equiv="Content-Type" /
+meta charset="utf-8" /
+meta content="ie=edge" http-equiv="x-ua-compatible" /
+meta content="width=device-width, height=device-height, initial-scale=1, maximum-scale=5" name="viewport" /
+meta content="yes" name="apple-mobile-web-app-capable" /
+meta content="telephone=no" name="format-detection" /
+
+// title
+title = current_page.data.title
+
+// web description
+meta name="keywords" content="#{data.main.keywords}" /
+meta name="description" content="#{data.main.description}" /
+meta property="og:locale" content="zh_TW" /
+meta property="og:site_name" content="#{data.main.title}" /
+meta property="og:title" content="#{data.main.title}" /
+meta property="og:description" content="#{data.main.description}" /
+meta property="og:url" content="#{}" /
+meta property="og:type" content="website" /
+meta property="og:image" content="#{}" /
+
+
+/! favicon
+link[rel="icon" href="#{image_path('favicon.ico')}"]
+
+
+
+
+
+
+

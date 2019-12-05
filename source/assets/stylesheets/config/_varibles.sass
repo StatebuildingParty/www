@@ -1,0 +1,59 @@
+@charset "utf-8"
+
+//------ varibles -------//
+
+// color
+$bg-white           : #ffffff
+$bg-gray            : #F2F2F2
+
+$color-primary      : #A63F24
+$color-primary-light: #A85D4E
+$color-white        : #ffffff
+$color-gold-light   : #DBD8C0
+$color-gold         : #C7B299
+$color-gold-dark    : #B0936F
+
+$text-black         : #333333
+$text-coffee        : #534741
+$text-white         : #ffffff
+
+
+$border-black       : #717171
+$border-red-light   : #EFC1BB
+
+
+.bg-gray
+  background-color: $bg-gray
+
+.bg-white
+  background-color: $bg-white
+
+.bg-red
+  background-color: $color-primary
+
+.bg-primary
+  background-color: $color-primary
+
+.bg-gold
+  background-color: $color-gold
+
+.bg-gold-light
+  background-color: $color-gold-light
+
+
+// borer-radius
+$xs-radius: 3px
+$s-radius: 5px
+$m-radius: 8px
+$l-radius: 15px
+
+
+// mixin
+@mixin trans-03s
+  transition: 0.3s ease
+
+@mixin trans-02s
+  transition: 0.2s ease
+
+@mixin hover-box
+  box-shadow: inset 0px 0px 10px rgba(78, 12, 12, 0.8)

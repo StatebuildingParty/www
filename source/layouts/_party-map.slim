@@ -1,0 +1,32 @@
+section#party-map
+  h1.w-100p.text-red.bg-gold.text-center 各地黨部
+  .w-900p
+    - data.party_map.party_map.each do |item|
+      .col45.party-item
+        h3 = item.title
+        = link_to item.map_link,target:'_blank',rel:'noopener' do
+          .party-map-img.lazyload[data-bg="#{image_path('party_map/'+item.city+'.png')}"]
+        .party-info
+          ul
+            li
+              span 時間
+              .open-time
+                - item.opentime.each do |t|
+                  .open-time-item
+                    p = t.time
+                    p.text-red = t.date
+            li
+              span 地址
+              span = item.address
+            li
+              span 電話
+              span = item.phone
+        .party-link
+          button.party-link-fb
+            = link_to item.fb,target:'_blank',rel:'noopener' do
+
+          button.party-link-map
+            = link_to item.map_link,target:'_blank',rel:'noopener' do
+
+
+

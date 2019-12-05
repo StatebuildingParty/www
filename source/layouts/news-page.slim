@@ -1,0 +1,32 @@
+- content_for :page_style do
+  = stylesheet_link_tag :news_page
+
+doctype html
+html lang="zh-TW"
+  head
+    = partial 'layouts/shared/head'
+  body
+    = partial 'layouts/shared/nav'
+
+    .news-page.w-900p
+      section.news-page-header
+        .news-page-logo
+        h1.text-red = current_page.data.title
+      seciton.news-page-content
+        = yield
+
+    = partial 'layouts/shared/footer'
+
+    /! CSS
+    = yield_content :page_style
+
+    /! vender
+    = partial "layouts/shared/vender"
+    = partial "layouts/shared/google-font"
+
+    /! js
+    = javascript_include_tag :site
+    = yield_content :page_js
+
+    /! ga
+    = partial "layouts/shared/ga"

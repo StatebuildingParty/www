@@ -1,0 +1,68 @@
+support:
+  - title: 捐款支持
+    image: support
+    button: 捐款支持
+    link: /support.html
+    content: 款項將用於：
+    list: |-
+      - 1. 登記保證金
+      - 2. 各區辦公室及行政人事
+      - 3. 理念推廣文宣
+
+  - title: 成為黨員
+    image: join
+    button: 成為黨員
+    link: /membership.html
+    content: 你將一同：
+    list: |-
+      - 1. 參與黨內選舉、成為政黨代表，決策組織的發展和走向
+      - 2. 遵守黨章黨綱、繳納黨費，支持黨務運作及茁壯組織
+
+  - title: 成為志工
+    image: volunteer
+    button: 成為志工
+    link: /befriend.html
+    content: 各地志工需求：
+    list: |-
+      - 1. 掃街站路口：協助拿牌子、發傳單
+      - 2. 小蜜蜂：協助投放文宣
+      - 3. 社群網路寫手：撰寫社群貼文或推廣文案
+      - 4. 影片：腳本企劃、影音錄攝、或影像剪輯
+      - 5. 舉辦客廳會：揪 15 位以上鄰居朋友，我們派員報告理念
+
+  - title: 了解更多
+    image: learnmore
+    button: 了解更多
+    link: https://www.facebook.com/Statebuilding.tw/
+    content: 我們會於各地不定期舉辦議題講座、客廳會、連署等行動，追蹤我們的粉專了解更多、響應支持
+    list: ""
+
+
+# 捐款支持
+donate:
+  - title: 線上單筆捐款
+    link: https://donate.newebpay.com/%E5%9F%BA%E9%80%B2%E9%BB%A8%E6%8D%90%E6%AC%BE%E9%A0%81%E9%9D%A2/%E7%B7%9A%E4%B8%8A%E5%96%AE%E7%AD%86
+    content: |-
+      線上單筆捐款
+      只要是本國人，
+      使用本國或外國核發之
+      信用卡均可
+      線上捐款。
+    img: support/qrcode-donate-sigle.jpg
+
+  - title: 定期定額捐款
+    link: https://donate.newebpay.com/Period/%E5%9F%BA%E9%80%B2%E9%BB%A8%E6%8D%90%E6%AC%BE%E9%A0%81%E9%9D%A2/%E5%9F%BA%E9%80%B2%E9%BB%A8%E5%AE%9A%E6%9C%9F%E5%AE%9A%E9%A1%8D%E6%8D%90%E6%AC%BE
+    content: |-
+      線上定期定額捐款
+      只要是本國人，
+      使用本國或外國核發之
+      信用卡均可
+      線上捐款。
+    img: support/qrcode-donate-period.jpg
+
+  - title: 郵政劃撥單捐款
+    link: https://drive.google.com/file/d/1Kby6kgmebGHmHqkiBI4YEOjsMgI8BpTb/view
+    content: |-
+      台灣基進政治獻金專戶
+      42351288
+    img: icon-download.svg

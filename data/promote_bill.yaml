@@ -1,0 +1,67 @@
+promote:  # 所有的法案(包含各地踏實行動)
+  - title: 公共住宅
+    avatar: public-housing
+    content: |-
+      青年買不起房，薪水繳完房租就沒錢了，生活負擔沉重。我們將嚴格監督公共住宅數量和品質，逐年提升社會住宅比例，10年內目標0.12提升至5%（50萬戶）。由政府提供優質、低廉、足數的公共住宅，滿足居住需求。
+
+  - title: 公共托育
+    avatar: public-care-baby
+    content: |-
+      青年面臨經濟壓力，生育下一代更是加重生活負擔，降低生育的意願。將閒置空間活化，設置優質的社區型公共托育；並遴選口碑的公共保母。讓公共托育的量質兼顧，協助青年緩解經濟壓力。
+
+  - title: 公共運輸
+    avatar: transport
+    content: |-
+      台灣的車禍率極高，威脅人民安全，最根本因素為交通設計不良和用路人習慣。我們應仿效日本，推動道路重新設計（車向分流、行人保護）、提升大眾運輸、並且提高汽機車駕照之取得門檻與罰則。
+
+  - title: 獎勵微型企業
+    avatar: micro-enterprises
+    content: |-
+      經濟要好，沒有速效藥，體質要先改善。台灣不缺人才，創業環境卻不良。我們應以技術研發和地區特色為主軸、獎勵相關微型企業、並專案降低投資障礙和行政成本。體質改善，才能從根本改變。
+
+  - title: 代理人法案
+    avatar: substitute-bill
+    content: |-
+      中共統戰招數多元，現有法律已無法全面防堵。我們將規範中共在台代理人的行為，需主動登記申報，違反可處刑罰。法案若通過，我們將嚴格監督行政機關執法。
+
+  - title: 陽光法案
+    avatar: sunshine-law
+    content: |-
+      面對中共滲透，公職人員需忠於台灣；若在中國投資置產太多，恐有遭中共脅迫風險。
+      所以我們提倡公職和參選人需主動申報於中國之投資置產，違者可處刑罰；且若其金額超過總資產一定比例，則不得參選和擔任政府要職。
+
+  - title: 性別尊重
+    avatar: gender
+    content: |-
+      消除校園霸凌、社會中的性暴力、日常與職場的性別歧視，並落實性別教育，持續性別主流化推動的政策。
+
+  - title: 改善空汙
+    avatar: air-pollution
+    content: |-
+      必須先了解空汙病因、才能對症下藥。首先推動廣設空汙監測器、分析汙染源頭；若知來源，落實懲罰和鼓勵機制、降低火力發電排放、鼓勵大眾運輸。投資研發監測與降污技術、更可讓產業活絡。
+
+  - title: 護台防中
+    avatar: tafi
+    content: |-
+      透過街頭連署，和製作懶人包、影片等等宣傳，向人民報告《中共代理人法》重要性，並要求國會盡速通過。
+    link: https://tafi.statebuilding.tw/
+
+  - title: 高雄好過日
+    avatar: takaogooday
+    content: |-
+      成立智庫《高雄好過日》，針對產業經濟、勞動社福、文教觀光、環境保護、區域交通五大層面，推動更優質的城市治理，並協助爭取權益。
+    fb: https://www.facebook.com/takaogooday/
+
+# 各地踏實行動
+promote_local:
+  - title: 代理人法案
+    avatar: substitute-bill
+
+  - title: 陽光法案
+    avatar: sunshine-law
+
+  - title: 護台防中
+    avatar: tafi
+
+  - title: 高雄好過日
+    avatar: takaogooday

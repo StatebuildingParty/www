@@ -1,0 +1,32 @@
+/ Popup - candidate
+- data.candidate.candidate.each do |item|
+  .popup-box.bg-white.candidate-popup[id=item.avatar]
+    button.popup-close-icon
+    .popup-content
+      .candidate-popup-img.lazyload[data-bg="#{image_path('candidate/'+item.avatar+'-L.png')}"]
+
+      .candidate-popup-text
+        .candidate-popup-top
+          .candidate-popup-logo
+          h3.text-coffee = item.name
+          = link_to item.fb,target:'_blank',rel:'noopener',class:'fb-search-img'
+            = markdown(item.name)
+
+        .text-content
+          h4.text-red= item.title
+          - if item.brief?
+            = markdown(item.brief)
+          - if item.job?
+            p.text-red 現任
+            = markdown(item.job)
+          p.text-red 學歷
+          = markdown(item.education)
+          p.text-red 經歷
+          = markdown(item.experience)
+          - if item.works?
+            p.text-red 作品
+            = markdown(item.works)
+
+          - if item.campus?
+            p.text-red 社團
+            = markdown(item.campus)
