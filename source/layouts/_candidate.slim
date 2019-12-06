@@ -26,7 +26,7 @@ section#candidate
               source type="image/webp" data-srcset="#{image_path('candidate/' + item.avatar + '.webp')}"
               = image_tag 'lqip-src.jpg', data:{src: image_path('candidate/' + item.avatar + '.png'),sizes: 'auto',srcset: image_path('candidate/' + item.avatar + '.png')},alt: item.name,class:'lazyload'
           h4.text-red = item.name
-          p 不分區
+          p = '不分區 '+item.ranking
 
 
   .w-900p

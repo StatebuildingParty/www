@@ -43,7 +43,7 @@ activate :blog do |blog|
   blog.paginate = true
   blog.per_page = 6
   blog.permalink = "{slug}"
-  blog.new_article_template = File.expand_path("source/news/template.html.slim", File.dirname(__FILE__))
+  blog.new_article_template = File.expand_path("source/news/template.html.erb", File.dirname(__FILE__))
   blog.publish_future_dated = true
 end
 

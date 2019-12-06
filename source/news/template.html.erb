@@ -5,7 +5,6 @@ author:
 tags: 台灣基進,
 slug: <%= @title.parameterize %>
 image_original: news_page_img/[your post slug]/example.jpg
-image_thumb: news_page_img/[your post slug]/example.jpg
 ---
 
 <!--
@@ -15,4 +14,7 @@ Markdown 說明：
 3. slug 為文章的網址連結，請使用英文空白請用 "-" ex. first-post
 4. Markdown 文件內如要使用資料夾的圖片，連結為：
   ![圖片名稱](news_page_img/[your post slug]/example.jpg)
+5. 檔名格式為 yyyy-mm-dd-title.md
+6. 檔頭需有完整 frontmatter，其中 date 需和上述檔名日期一致
+7. 因為日期格式是 UTC，請注意不要把時間設定到未來
 -->
