@@ -5,7 +5,6 @@ author: 台灣基進
 tags: 台灣基進,不分區,候選人
 slug: legislator-at-large-candidate
 image_original: news_page_img/2019-11-14-legislator-at-large-candidate/legislator-at-large-candidate.jpg
-image_thumb: news_page_img/2019-11-14-legislator-at-large-candidate/legislator-at-large-candidate.jpg
 ---
 
 ![台灣基進不分區名單](news_page_img/2019-11-14-legislator-at-large-candidate/legislator-at-large-candidate.jpg)

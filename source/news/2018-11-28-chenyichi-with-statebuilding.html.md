@@ -5,7 +5,6 @@ author: 郭瓊俐
 tags: 台灣基進,陳奕齊,選舉,高雄市
 slug: chenyichi-with-statebuilding
 image_original: news_page_img/2018-11-28-chenyichi-with-statebuilding/chenyichi-with-statebuilding.jpeg
-image_thumb: news_page_img/2018-11-28-chenyichi-with-statebuilding/chenyichi-with-statebuilding.jpeg
 ---
 ![陳奕齊讓基進黨暴紅的第一仗](news_page_img/2018-11-28-chenyichi-with-statebuilding/chenyichi-with-statebuilding.jpeg)
 

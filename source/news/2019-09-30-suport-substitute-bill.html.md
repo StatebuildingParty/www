@@ -5,7 +5,6 @@ author: 蔣宜婷
 tags: 台灣基進,境外勢力透明法,代理人,政治,台商
 slug: suport-substitute-bill
 image_original: news_page_img/2019-09-30-suport-substitute-bill/suport-substitute-bill.jpg
-image_thumb: news_page_img/2019-09-30-suport-substitute-bill/suport-substitute-bill.jpg
 ---
 ![台灣基進推「境外勢力影響透明法｣](news_page_img/2019-09-30-suport-substitute-bill/suport-substitute-bill.jpg)
 

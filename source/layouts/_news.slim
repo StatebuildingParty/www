@@ -1,7 +1,7 @@
 section#news
   h1.w-100p.text-white.bg-red.text-center 最新消息
   .w-1200p
-    - page_articles[0..6].each do |article|
+    - blog.articles[0..5].each do |article|
       .news-item.col33
         = link_to article.url,target:'_blank',rel:'noopener',data:{ bg: image_path(article.data.image_original)},class:'news-cover lazyload' do
         = link_to article.url,target:'_blank',rel:'noopener',class:'news-text'

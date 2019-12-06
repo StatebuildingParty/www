@@ -5,7 +5,6 @@ author: 何澄輝
 tags: 台灣基進,代理人法案,境外勢力代理人登記,
 slug: substitute-bill
 image_original: news_page_img/2019-07-24-substitute-bill/substitute-bill.jpg
-image_thumb: news_page_img/2019-07-24-substitute-bill/substitute-bill.jpg
 ---
 ![境外勢力代理人登記 就像考駕照](news_page_img/2019-07-24-substitute-bill/substitute-bill.jpg)
 

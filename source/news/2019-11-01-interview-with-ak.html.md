@@ -5,7 +5,6 @@ author: 台灣基進
 tags: 台灣基進,專訪台港人,主權要顧,香港,主權
 slug: interview-with-ak
 image_original: news_page_img/2019-11-01-interview-with-ak/interview-with-ak.jpg
-image_thumb: news_page_img/2019-11-01-interview-with-ak/interview-with-ak.jpg
 ---
 ![賺錢有數，主權要顧 / 專訪在台港人 - 阿K](news_page_img/2019-11-01-interview-with-ak/interview-with-ak.jpg)
 
