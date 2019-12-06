@@ -9,7 +9,7 @@
 ## 啟動方式
 
     $ bundle install
-    $ middleman serve
+    $ middleman server
 
 可在自己電腦 http://127.0.0.1:4567 網址看到畫面
 
@@ -52,8 +52,10 @@ source / assets / images / news_page_img / [創建這篇文章的資料夾]
 
 ## 發布方式
 
-確認 build 出來的頁面沒問題後執行部屬
-
     $ bundle exec middleman build
+    
+build 出來的內容會放在 www/build/，可以利用 [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb/related) 開啟 www/build 在本機端確認網頁沒問題後再部署。
+    
     $ middleman deploy
+
 
