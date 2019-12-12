@@ -1,0 +1,1 @@
+function loadJS(e){var t=document.getElementsByTagName("script")[0],n=document.createElement("script");n.src=e,t.parentNode.insertBefore(n,t)}window.HTMLPictureElement&&"sizes"in document.createElement("img")||loadJS("ls.respimg.min.js");
